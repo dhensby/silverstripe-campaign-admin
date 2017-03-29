@@ -8,7 +8,7 @@ use ReflectionClass;
 
 class CampaignAdminTest extends SapphireTest
 {
-    protected $extraDataObjects = [
+    protected static $extra_dataobjects = [
         CampaignAdminTest\InvalidChangeSet::class,
     ];
 
